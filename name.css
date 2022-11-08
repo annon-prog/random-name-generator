@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+*::before, *::after{
+      box-sizing: border-box;
+}
+*{
+      margin:0;
+      padding:0;
+      position:relative;
+      box-sizing: border-box;
+}
+body{
+      position:relative;
+     width:100%;
+      min-height: 100vh;
+      background:#468499;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-family:'poppins','sans-serif';
+      padding:1rem;
+}
+.container{
+      width:calc(768px - 1rem);
+      border-radius:10px;
+      padding:16px;
+      color:#fff;
+      background:#0f2229
+}
+.container h4{
+      font-weight:400;
+      font-size:1.5rem;
+      text-align:center;
+}
+.container .form{
+      position:relative;
+      width:100%;
+      margin: 2rem 0;
+}
+.container .form input{
+      width:100%;
+      background:#1f3841;
+      border:none;
+      outline:none;
+      padding:15px 145px 15px 12px;
+      border-radius:10px;
+      font-size:1.2rem;
+      color:#fff;
+
+}
+.container .form button{
+      position:absolute;
+      padding:12px;
+      border-radius:10px;
+      font-size:1.2rem;
+      color:#fff;
+      border:none;
+      outline:none;
+      background:#0f2229;
+      right:3px;
+      top:3px;
+      cursor:pointer;
+}
+.container .nameBox{
+      position:relative;
+      background:#1f3841;
+      padding:12px;
+      border-radius:10px;
+
+}
+.container .nameBox span{
+      font-size:1.2rem;
+      font-weight:300;
+      letter-spacing: .3px;
+      text-transform:capitalize;
+}
